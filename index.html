@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Web page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav-bar">
+        <h2 class="logo">PraRoz</h2>
+        <nav class="main-nav">
+          <ul class="main-nav-lists">
+            <li><a href="#" class="main-nav-list">Home</a></li>
+            <li><a href="#" class="main-nav-list">About</a></li>
+            <li><a href="#" class="main-nav-list">Service</a></li>
+            <li><a href="#" class="main-nav-list">Design</a></li>
+            <li><a href="#" class="main-nav-list">Contact</a></li>
+          </ul>
+        </nav>
+
+        <form>
+          <div class="search">
+            <input type="search" placeholder="Type to text" />
+            <button class="nav-btn">Search</button>
+          </div>
+        </form>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </div>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Web Design & <span>Development </span>Course
+            </h1>
+            <p class="text-description">
+              Web Design is a specialization of the design stream. They also use
+              HTML, CSS,WYSIWYG editing software, markup validators etc., to
+              create design element.
+            </p>
+
+            <a class="btn btn--full" href="#">Join us</a>
+          </div>
+          <form class="cta-form" action="#">
+            <div class="cta-text">
+              <h2 class="login">Login Here</h2>
+              <label for="email">Email address</label><br />
+              <input
+                id="email"
+                type="email"
+                placeholder="me@example.com"
+                required
+              /><br />
+              <label for="password"> Password</label><br />
+              <input
+                id="password"
+                type="password"
+                placeholder="Password"
+                required
+              /><br />
+              <button class="btn form--btn">Login</button>
+              <!-- <a class="cta-btn" href="#">Login</a> -->
+              <div class="cta-text-box">
+                <p class="account">Don't have an account?</p>
+                <p class="sign-up"><a href="#">Sign up</a> here</p>
+                <p class="log-in">Log in with</p>
+              </div>
+              <div class="cta-icons">
+                <ion-icon class="cta-icon" name="logo-facebook"></ion-icon>
+                <ion-icon class="cta-icon" name="logo-instagram"></ion-icon>
+                <ion-icon class="cta-icon" name="logo-twitter"></ion-icon>
+                <ion-icon class="cta-icon" name="logo-google"></ion-icon>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>

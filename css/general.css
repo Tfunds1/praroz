@@ -1,0 +1,25 @@
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 1.8rem;
+}
+.btn--full {
+  background-color: #ff7200;
+  color: #000;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  font-size: 1rem;
+
+  padding: 0.75rem 2.5rem;
+
+  transition: all 0.3s;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
