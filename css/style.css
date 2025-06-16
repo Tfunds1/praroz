@@ -27,7 +27,7 @@ body {
 }
 .logo {
   font-size: 2rem;
-  color: #ff7200;
+  color: blue;
 }
 .nav-bar {
   display: flex;
@@ -52,7 +52,7 @@ body {
   transition: all 0.3s;
 }
 .main-nav-list:hover {
-  color: #ff7200;
+  color: blue;
 }
 .search {
   display: flex;
@@ -62,7 +62,7 @@ body {
   font-family: "Times New Roman";
   height: 2.8rem;
   background: transparent;
-  border: 1px solid #ff7200;
+  border: 1px solid blue;
   color: #fff;
   border-right: none;
   font-size: 1rem;
